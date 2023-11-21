@@ -1,0 +1,238 @@
+body{
+            background-color: rgb(247, 247, 247);
+        }
+        .navbar{
+            background-color: rgb(34, 34, 130);
+            width: 100%;
+            height: 70px;
+            display: flex;
+            position: fixed;
+            justify-content: space-between;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .img1{
+            width: 100px;
+        }
+        .nava{
+            text-decoration: none;
+            color: white;
+        }
+        .nava:hover{
+            color: white;
+        }
+        .nav-item{
+            margin-right: 25px;
+            border: 0px solid white;
+            padding: 10px;
+            color: white;
+        }
+        .nav-item:hover{
+            color: white;
+            border-bottom: 3px solid white;
+        }
+        
+        .box1{
+            display: flex;
+            margin: auto;
+            background: linear-gradient(to right, #1010e8, #5150b0);
+            opacity: 0.7;
+            width: 1300px;
+            position: relative;
+        }
+        .img2{
+            width: 1300px;
+            height: 600px;
+        }
+        .se{
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+        .psg1{
+            text-align: center;
+        }
+        .input-group{
+            width: 400px;
+        }
+        .form-group{
+            width: 400px;
+        }
+        .box2{
+            margin-left: 70px;
+            width: 30%;
+        }
+        .tle:hover:hover{
+            text-decoration: underline;
+        }
+        .foot{
+            text-align: center;
+            background-color: rgb(34, 34, 188);
+            color: white;
+        }
+        .head{
+            text-align: start;
+        }
+        .box3{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box4{
+            flex-direction: row;
+            margin-right: 20px;
+        }
+        .pagin{
+            position: absolute;
+            margin-left: 65%;
+            margin-top: 10px;
+        }
+        .fa-solid{
+            color: rgb(34, 34, 188);
+            margin-left: 60px;
+        }
+        .pp{
+            width: 200px;
+            
+        }
+        .box5{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        .box6{
+            flex-direction: row;
+            position: relative;
+
+            animation: fadeInRight;
+            animation-duration: 2s;
+            /* animation-name: example;
+            animation-duration: 3s;  
+            animation-fill-mode: forwards; */
+            /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+        }
+
+        
+
+        @keyframes example{
+            from {right: -200px;}
+            to {right: 10px;}
+        }
+       
+        .hh5{
+            margin-left: 40px;
+        }
+        .box7{
+            background-color: #3a3aa5;
+            width: 100%;
+            height: 300px;
+            position: relative;
+        }
+        .img4{
+            width: 400px;
+            position: absolute;
+            top: 50px;
+        }
+        .img-box{
+            position: absolute;
+            
+        }
+        .ftlink1{
+            color: white;
+            position: absolute;
+            top: 20px;
+            left: 450px;
+        }
+        .icon1{
+            position: absolute;
+            top: 60px;
+            right: 880px;
+        }
+        .icon2{
+            position: absolute;
+            top: 100px;
+            right: 950px;
+        }
+        .icon3{
+            position: absolute;
+            top: 140px;
+            right: 1017px;
+        }
+        .icon4{
+            position: absolute;
+            top: 180px;
+            right: 783px;
+        }
+        .icon5{
+            position: absolute;
+            top: 220px;
+            right: 963px;
+        }
+        .ftlink2{
+            color: white;
+            position: absolute;
+            top: 20px;
+            left: 800px;
+        }
+        .icon6{
+            position: absolute;
+            top: 50px;
+            right: 390px;
+            text-align: end;
+        }
+        .icon7{
+            position: absolute;
+            top: 110px;
+            right: 500px;
+        }
+        .icon8{
+            position: absolute;
+            top: 150px;
+            right: 467px;
+        }
+        .icon9{
+            position: absolute;
+            top: 190px;
+            right: 637px;
+        }
+        .ftlink3{
+            color: white;
+            position: absolute;
+            top: 20px;
+            right: 290px;
+        }
+        .icon10{
+            position: absolute;
+            top: 50px;
+            right: 10px;
+        }
+        .boxc{
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            right: 250px;
+            top: 140px;
+            color: white;
+        }
+        
+        .boxc:hover{
+           color: black;
+           background-color: rgb(238, 248, 248);
+        }
+        .boxv{
+            position: absolute;
+            right: 230px;
+            top: 210px;
+        }
+        .footlast{
+            width: 100%;
+            height: 35px;
+            background-color: rgb(24, 90, 205);
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Testimonials </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../WOW-master/css/site.css">
+    <script src="../WOW-master/dist/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="Style1.css">
+    <style>
+        .bonx{
+            background-color: rgb(34, 57, 150);
+            color: white;
+            width: 100%;
+            height: 550px;
+        }
+        .left-box{
+            position: absolute;
+            top: 150px;
+            left: 10px;
+        }
+        .leftkee{
+            position: absolute;
+            top: 80px;
+            font-size: 30px;
+            left: 10px;
+            font-family: "Adobe Heiti Std";
+        }
+        .leftprg{
+            position: absolute;
+            top: 170px;
+            left: 10px;
+        }
+        .right-box{
+            margin-left: 630px;
+        }
+        .rightimg{
+            width: 900px;
+        }
+        .chevronLeft{
+            width: 900px;
+            clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+
+        }
+        .hox1{
+            width: 700px;
+            height: 300px;
+            background-color: white;
+            border: 0px solid black;
+            border-radius: 3px;
+            margin-left: 200px;
+            box-shadow: 1px 3px 5px gray;
+        }
+        .com1{
+            width: 120px;
+            border-radius: 60px;
+            box-shadow: 1px 3px 5px gray;
+            padding: 3px;
+            margin: 30px 0px 0px 60px;
+            display: inline-block;
+        }
+        .iconpsg{
+            display: inline-block;
+            margin: 5px 0px 10px 10px;
+        }
+        .date{
+            font-size: 15px;
+            margin: 1px 0px 0px 600px;
+            display: inline-block;
+        }
+        .hu{
+            margin-left: 85px;
+        }
+        .note1{
+            display: flex;
+            flex-direction: column;
+        }
+        .note2{
+            width: 500px;
+            height: 300px;
+            background-color: white;
+            border: 0px solid black;
+            border-radius: 3px;
+            box-shadow: 1px 3px 5px gray;
+            position: relative;
+        }
+        .note3{
+            width: 5px;
+            height: 300px;
+            background-color: rgb(42, 42, 153);
+        }
+        .note4{
+            width: 500px;
+            height: 750px;
+            background-color: white;
+            color: black;
+            border-radius: 3px;
+            border: 0px solid black;
+            box-shadow: 1px 3px 5px gray;
+            position: relative;
+            /* display: flex;
+            flex-direction: column; */
+        }
+        .rightsen{
+            font-family: "Adobe Gothic Std";
+        }
+        .rightsen1{
+            font-family: "Adobe Fangsong Std";
+            position: absolute;
+            top: 50px;
+            left: 30px;
+        }
+        .rightsen2{
+            font-family: "Adobe Fangsong Std";
+            position: absolute;
+            top: 190px;
+            left: 30px;
+        }
+        .R1{
+            position: absolute;
+            top: 80px;
+            left: 0px;
+        }
+        .R2{
+            position: absolute;
+            top: 100px;
+            left: 0px;
+        }
+        .R3{
+            position: absolute;
+            top: 120px;
+            left: 0px;
+        }
+        .R4{
+            position: absolute;
+            top: 140px;
+            left: 0px;
+        }
+        .R5{
+            position: absolute;
+            top: 160px;
+            left: 0px;
+        }
+        .R6{
+            position: absolute;
+            top: 220px;
+            left: 0px;
+        }
+        .R7{
+            position: absolute;
+            top: 240px;
+            left: 0px;
+        }
+        .R8{
+            position: absolute;
+            top: 260px;
+            left: 0px;
+        }
+        .noke{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .fstmsg{
+            color: black;
+            font-family: "Adobe Gothic Std";
+            position: absolute;
+        }
+
+        .Rimg{
+            width: 150px;
+            border-radius: 5px;
+            position: absolute;
+            display: inline-block;
+        }
+        .noked{
+            margin-top: 50px;
+            margin-left: 10px; 
+            border: 0px solid black;
+            border-radius: 5px;
+            width: 450px;
+            height: 100px;
+            padding: 15px;
+        }
+        .noked:hover{
+            background-color: rgb(209, 203, 203);
+        }
+        
+        .noked1{
+            margin-top: 1px;
+            margin-left: 10px; 
+            border: 0px solid black;
+            border-radius: 5px;
+            width: 450px;
+            height: 110px;
+            padding: 19px;  
+        }
+        .noked1:hover{
+            background-color: rgb(209, 203, 203);
+        }
+        .noked2{
+            margin-top: 10px;
+            margin-left: 10px; 
+            border: 0px solid black;
+            border-radius: 5px;
+            width: 450px;
+            height: 110px;
+            padding: 15px;  
+        }
+        .noked2:hover{
+            background-color: rgb(209, 203, 203);
+        }
+        .noked3{
+            margin-top: 10px;
+            margin-left: 10px; 
+            border: 0px solid black;
+            border-radius: 5px;
+            width: 450px;
+            height: 110px;
+            padding: 15px;  
+        }
+        .noked3:hover{
+            background-color: rgb(209, 203, 203);
+        }
+        .noked4{
+            margin-top: 10px;
+            margin-left: 10px; 
+            border: 0px solid black;
+            border-radius: 5px;
+            width: 450px;
+            height: 110px;
+            padding: 15px;  
+        }
+        .noked4:hover{
+            background-color: rgb(209, 203, 203);
+        }
+        .pp1{
+            position: absolute;
+            display: inline-block;
+            left: 170px;
+        }
+        .pp2{
+            position: absolute;
+            left: 170px;
+            top: 100px;
+            font-size: 10px;
+            display: inline-block;
+        }
+        .anoke{
+            text-decoration: none;
+            color: black;
+
+        }
+        .behind{
+            width: 5px;
+            height: 750px;
+            background-color: rgb(42, 42, 153)
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar px-2 lg:px-10 font-roboto">
+        <a href="#">
+            <img src="logo.svg" alt="" class="img1">
+        </a>
+        <div class="hidden lg:block">
+            <ul class="text-white flex items-center nav justify-content-end">
+                <li class="nav-item"> <a href="Home.html" class="nava" style="border-bottom: 3px solid white; padding:13px;"> Home </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>  
+                    <ul class="dropdown-menu">
+                        
+                        <li><a class="dropdown-item" href="#"> International Diploma </a></li>
+                        <li><a class="dropdown-item" href="SQA.html"> SQA Advanced Developing in Computing </a></li>
+                        <li><a class="dropdown-item" href="NCC.html"> NCC Computing Diploma </a></li>
+                        <li><a class="dropdown-item" href="UOG.html"> UOG/Final Year Degree </a></li>
+                        <li><a class="dropdown-item" href="LocalDiploma.html"> Local Diploma </a></li>
+                        <li><a class="dropdown-item" href="ProfessinalEng1.html"> Professional Engineering </a></li>
+                        <li><a class="dropdown-item" href="Application1.html"> Application </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Centers</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="MainCenter.html"> Main Branch Center </a></li>
+                        <li><a class="dropdown-item" href="Accredit1.html"> Accredit Center (YGN) </a></li>
+                        <li><a class="dropdown-item" href="AccMyanmar1.html"> Accredit Center (MYANMAR) </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"> <a href="Department.html" class="nava"> Department </a> </li>
+                <li class="nav-item"> <a href="Facility.html" class="nava"> Facility </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="StuTestiminal.html"> Student Testimonials </a></li>
+                        <li><a class="dropdown-item" href="Alumini.html"> Alumni </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="AboutUs.html" class="nava"> About us </a> </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    
+    <div class="bonx d-flex" style="width: 100%;">
+        <div class="left-box d-flex" style="width: 35%;">
+            <img src="logo.svg" alt="" width="150px" class="imglo">
+            <p class="leftkee"> Think High, Aim Big, Get Knowledge, Join KMD </p>
+            <p class="leftprg">ယခုစာမျက်နှာတွင် KMD Institute ၏ ကျောင်းသား၊ ကျောင်းသူဟောင်းများ နှင့် လက်ရှိဆက်လက်တက်ရောက်နေသော ကျောင်းသား၊ကျောင်းသူများ၏ ကျောင်းနှင့်ပတ်သက်သည့် ဝန်ဆောင်မှုများ နှင့် သင်တန်းများ နှင့်ပတ်သက်သည့် မှတ်ချက်များပါဝင်ပါသည်။</p>
+        </div>
+
+        <div class="right-box d-flex">
+            <div class="chevronLeft">
+                <img src="s3.png" alt="" class="rightimg">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class=" d-flex">
+        <div class="note1 d-flex" style="width: 60%;">
+
+            <div class="hox1 mt-4">
+                <img src="com1.jpg" alt="" class="com1">
+                <p class="iconpsg"> <i class="fa-solid fa-quote-left fa-2xl text-dark"></i> <span>အောင်မြင်မှုများ ထပ်မံရရှိပါစေ။</span> <i class="fa-solid fa-quote-right text-dark"></i></p>
+                <p class="date"> Feb 04, 2021</p>
+                <h6 class="hu"> Thu Thu </h6>
+                <p class="mx-5"> Con Con Khin Myat Mon </p>
+            </div>
+
+            <div class="hox1 mt-4">
+                <img src="com1.jpg" alt="" class="com1">
+                <p class="iconpsg"> <i class="fa-solid fa-quote-left fa-2xl text-dark"></i> <span>အောင်မြင်မှုများ ထပ်မံရရှိပါစေ။</span> <i class="fa-solid fa-quote-right text-dark"></i></p>
+                <p class="date"> Feb 04, 2021</p>
+                <h6 class="hu"> Thu Thu </h6>
+                <p class="mx-5"> Con Con Khin Myat Mon </p>
+            </div>
+
+            <div class="hox1 mt-4">
+                <img src="com1.jpg" alt="" class="com1">
+                <p class="iconpsg"> <i class="fa-solid fa-quote-left fa-2xl text-dark"></i> <span>အောင်မြင်မှုများ ထပ်မံရရှိပါစေ။</span> <i class="fa-solid fa-quote-right text-dark"></i></p>
+                <p class="date"> Feb 04, 2021</p>
+                <h6 class="hu"> Thu Thu </h6>
+                <p class="mx-5"> Con Con Khin Myat Mon </p>
+            </div>
+
+        </div>
+
+        <div class="noke">
+            <div class="note2 d-flex mt-4">
+            <div class="note3"></div>
+            <div>
+                <p class="rightsen mx-3 mt-3"> Academic </p>
+            <p class="rightsen1 "> Courses </p>
+            </div>
+            
+            <div class="R1">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> Diploma in Accounting</p>
+            </div>
+            <div class="R2">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> Application</p>
+            </div>
+            <div class="R3">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> Local Diploma</p>
+            </div>
+            <div class="R4">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> IT Diploma</p>
+            </div>
+            <div class="R5">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> Professional Engineering Course</p>
+            </div>
+            
+            <div>
+                <p class="rightsen2"> Program </p>
+            </div>
+            <div class="R6">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> NCC Computing Diploma</p>
+            </div>
+            <div class="R7">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> SQA Advanced Diploma in Computing (HND) </p>
+            </div>
+            <div class="R8">
+                <p class="rige1"><i class="fa-solid fa-circle-arrow-right text-dark"></i> UOG Final Year Degree</p>
+            </div>
+            
+        </div>
+
+        <div class="note4 d-flex mt-4">
+            <div class="behind"></div>
+            <p class="fstmsg mt-3 mx-3"> Latest Courses </p>
+            <div class=" d-flex" style="flex-direction: column;">
+
+                <a href="#" class="anoke">
+                    <div class="noked">
+                    <img src="Rimg1.jpg" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Level 2 Diploma in IT System Support <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon</span> </p> 
+                </div>
+                </a>
+                
+                <a href="#" class="anoke">
+                    <div class="noked1">
+                    <img src="R2.png" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Web Development with Asp.Net <br> <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon, KMD_Pansodan(head office)</span> </p> 
+                </div>
+                </a>
+                
+                <a href="#" class="anoke">
+                    <div class="noked2">
+                    <img src="R3.jpg" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Excel Formula and Function <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon,KMD_Tamway, KMD_Pansodan(head office)</span> </p> 
+                </div>
+                </a>
+                
+                <a href="#" class="anoke">
+                    <div class="noked3">
+                    <img src="R4.jpg" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Excel for HR <br> <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon,KMD_Tamway, KMD_Pansodan(head office)</span> </p> 
+                </div>
+                </a>
+                
+                <a href="#" class="anoke">
+                    <div class="noked4">
+                    <img src="R5.jpg" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Power Media (Video Editing) <br> <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon</span> </p> 
+                </div>
+                </a>
+                
+                <a href="#" class="anoke">
+                    <div class="noked4">
+                    <img src="R7.jpg" alt="" class="Rimg">
+                    <p class="pp1 mx-3"> Azure Data Fundamentals <br> <span class=" fa-sm" style="font-size: 10px;">KMD_Mayangon</span> </p> 
+                </div>
+
+                </a>
+                
+
+
+            </div>
+            
+            
+            
+
+        </div>
+
+        </div>
+
+        
+
+    </div>
+
+
+
+    
+    <h3 class="hh mt-5 text-center"> Why KMD? </h3>
+
+    <div class="box5">
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Experiences </h5>
+            <p class="pp">Experience is an important element for establishment of successful business. KMD holds 30+ years' experience</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Infrastructure </h5>
+            <p class="pp">With 5+ Offices across country, KMD own high-end</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Work Force </h5>
+            <p class="pp">We have recruited elite workforce across the world the deliver quality services. Current strength is 900+ employees</p>
+        </div>
+    <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+        <h5 class="hh5">Quality </h5>
+            <p class="pp">We are ISO 9001 certified company for QMS. We are the highest attention to our services and product quality</p>
+        </div>
+    </div>
+
+    <div class="box7">
+        <div class="img-box" style="width: 30%;">
+            <img src="logo.svg" alt="" class="img4">
+        </div>
+
+       <div class="d-flex justify-content-end text-white">
+        <div>
+            <div class="ftlink1">
+                <h6> Useful Links </h6> 
+            </div>
+            <div class="icon1">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> University of Greenwich
+            </div>
+            <div class="icon2">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> NCC Eduction
+            </div>
+            <div class="icon3">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> SQA 
+            </div>
+            <div class="icon4">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> Institute of Commercial Management 
+            </div>
+            <div class="icon5">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> City & Guild  
+            </div>
+        </div>
+            
+        <div>
+            <div class="ftlink2">
+                <h6> Contact Us </h6> 
+            </div>
+            <div class="icon6">
+                <i class="fa-solid fa-map-location text-white"></i> No 174-182, Pansodan Road (Middle Block),<br> Kyauktada Township, Yangon, Myanmar.
+            </div>
+            <div class="icon7">
+                <i class="fa-solid fa-envelope-open-text text-white"></i> enquiry@kmdcomputer.com
+            </div>
+            <div class="icon8">
+                <i class="fa-solid fa-phone text-white"></i> +95-1-8-381129, 381776, 381035
+            </div>
+            <div class="icon9">
+                <i class="fa-solid fa-mobile-retro text-white"></i> 01245180
+            </div>
+        </div>
+
+        <div>
+            <div class="ftlink3">
+                <h6> About Us </h6> 
+            </div>
+            <div class="icon10">
+                KMD was founded in 1986 as a Training Institute. <br> Now it holds presence in complete Technology <br> paradigm of country with 900+ workforce.
+            </div>
+            <a href="#" class="lit text-decoration-none text-white"><div class="boxc"> Read More</div></a>
+            <div class="boxv">
+                <i class="fa-brands fa-facebook fa-2xl text-white"></i>
+                <i class="fa-brands fa-instagram fa-2xl mx-4"></i>
+            </div>
+        </div>
+
+       </div>
+
+    </div>
+
+    <div class="footlast">Copyright © 2020, KMD. All Rights Reserved.</div>
+    
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>

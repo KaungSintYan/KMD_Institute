@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Us </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../WOW-master/css/site.css">
+    <script src="../WOW-master/dist/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="Style1.css">
+    <style>
+        .bog1{
+            position: relative;
+
+        }
+        .sed1{
+            width: 700px;
+            height: 300px;
+            background-color: rgb(47, 47, 165);
+            color: white;
+            position: absolute;
+            top: 350px;
+            left: 400px;
+        }
+        .sohead{
+            font-size: 25px;
+        }
+        .dihorizontial{
+            width: 250px;
+            height: 3px;
+            background-color: white;
+        }
+        .sohead1{
+            font-size: 30px;
+            text-align: center;
+        }
+        .sohead2{
+            text-align: start;
+        }
+        .psgbox{
+            margin-left: 200px;
+            font-size: 18px;
+        }
+        .psgbox2{
+            margin-left: 200px;
+            font-size: 19px;
+        }
+        .soket{
+            text-align: start;
+        }
+        .content{
+            width: 100%;
+            height: 300px;
+            border: 0px solid black;
+            overflow: hidden;
+            
+        }
+        .scrollBar{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            position: relative;
+            background: linear-gradient(to left, rgb(79, 31, 31), rgb(86, 86, 140));
+            opacity: 0.6;
+        }
+        .scrollBox{
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .somed{
+            color: red;
+            width: 800px;
+            position: absolute;
+            top: 1030px;
+            left: 300px;
+            font-size: 19px;
+        }
+        .some1{
+            color: black;
+            font-family: "Adobe Gothic Std";
+        }
+        .sode{
+            font-size: 25px;
+        }
+        .sode1{
+            font-size: 25px;
+        }
+        .boxy-5{
+            display: flex;
+            flex-direction: row;
+        }
+        .boxy-6{
+            position: relative;
+            animation-name: something;
+            animation-duration: 3s;  
+            animation-fill-mode: forwards;
+            /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+        }
+        @keyframes something{
+            from {right: -100px;}
+            to {right: 0px;}
+        }
+
+        .tchl{
+            width: 170px;
+            border-radius: 100px;
+        }
+        .logotheme{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .logotheme1{
+            position: relative;
+            animation-name: theme;
+            animation-duration: 3s;  
+            animation-fill-mode: forwards;
+            /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+        }
+        @keyframes theme{
+            from {right: -100px;}
+            to {right: 0px;}
+        }
+        .nog{
+            border: 0px solid black;
+            width: 100%;
+            height: 600px;
+            background-color: rgb(231, 236, 239);
+            color: black;
+            position: relative;
+        }
+        .sode2{
+            font-size: 25px;
+        }
+        .mainLead{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .secondLead{
+            flex-direction: row;
+            margin-left: 200px;
+            position: relative;
+            animation-name: grap;
+            animation-duration: 3s;  
+            animation-fill-mode: forwards;
+            /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+        }
+        @keyframes grap{
+            from {right: -100px;}
+            to {right: 0px;}
+        }
+        .the1{
+           margin-left: 190px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar px-2 lg:px-10 font-roboto">
+        <a href="#">
+            <img src="logo.svg" alt="" class="img1">
+        </a>
+        <div class="hidden lg:block">
+            <ul class="text-white flex items-center nav justify-content-end">
+                <li class="nav-item"> <a href="Home.html" class="nava"> Home </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>  
+                    <ul class="dropdown-menu">
+                        
+                        <!-- <li><a class="dropdown-item" href="#"> International Diploma </a></li> -->
+                        <li><a class="dropdown-item" href="SQA.html"> SQA Advanced Developing in Computing </a></li>
+                        <li><a class="dropdown-item" href="NCC.html"> NCC Computing Diploma </a></li>
+                        <li><a class="dropdown-item" href="UOG.html"> UOG/Final Year Degree </a></li>
+                        <li><a class="dropdown-item" href="LocalDiploma.html"> Local Diploma </a></li>
+                        <li><a class="dropdown-item" href="ProfessinalEng1.html"> Professional Engineering </a></li>
+                        <li><a class="dropdown-item" href="Application1.html"> Application </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Centers</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="MainCenter.html"> Main Branch Center </a></li>
+                        <li><a class="dropdown-item" href="Accredit1.html"> Accredit Center (YGN) </a></li>
+                        <li><a class="dropdown-item" href="AccMyanmar1.html"> Accredit Center (MYANMAR) </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"> <a href="Department.html" class="nava"> Department </a> </li>
+                <li class="nav-item"> <a href="Facility.html" class="nava"> Facility </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="StuTestiminal.html"> Student Testimonials </a></li>
+                        <li><a class="dropdown-item" href="Alumini.html"> Alumni </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="AboutUs.html" class="nava"  style="border-bottom: 3px solid white; padding:13px;"> About us </a> </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="bog1 d-flex">
+        <img src="in2.jpg" alt="" class=" mx-auto rounded" width="77%" style="position: relative;">
+    </div>
+    <div class="sed1">
+        <img src="logo.svg" alt="" width="250px" class=" mx-auto rounded d-block">
+        <p class="sohead text-center"> Vision and Mission </p>
+        <div class="dihorizontial mx-auto rounded d-block"></div>
+        <p class="sopsg text-center mt-2">Develop the people and the country from Information and Communication Technology, by providing the best quality and value products, ICT solutions and services, and ICT education training.</p>
+    </div>
+    <div>
+        <p class="sohead1 mt-5"> The Story of KMD Group of Companies </p>
+        <div class="psgbox">
+            <p class="sohead2 mt-4"> KMD was established as a niche computer training institute in 1986. <br> 
+
+It was founded by Mr. Thaung Tin and Mrs. Tyn Tyn Aye <br>
+
+KMD was reorganized, restructured and risen in market as a Private Limited Company focused on delivering ICT Solutions. <br>
+
+KMD is the largest one-stop IT Products and Services Provider in Myanmar, with well-established Management and Workforce of 650+ <br> (as on April 2020). <br>
+
+KMD holds large customer base including ongoing relationship with major Government Departments and Private Enterprises <br>
+
+More than 700,000 has been graduated so far from KMD Education <br>
+
+Established as Authorized Distributor in country for major international brands</p>
+        </div>
+        
+    </div>  
+
+    <!-- scrollbar -->
+    <div class="content">
+        <div class="scrollBar">
+            <img src="In1.jpg" alt="" width="100%" height="100%" class=" scrollBox"> 
+        </div>
+    </div>
+    <div>
+        <p class="somed"><i class="fa-solid fa-quote-left fa-2x text-dark"> </i> <span class="some1">KMD Group of Companies has been successfully delivering solutions for all technology needs of Industries. With the experience of 30+ years, KMD has established itself as one-stop provider for all IT needs in Myanmar. KMD was started as a training institute and now KMD holds strong presence in IT and Mobile Retail and Distribution, Enterprise Software Solutions, and ICT Training.</span></p>
+    </div>
+
+    <div class="mt-3">
+        <h6 class="sode text-center"> Our Management </h6>
+    </div>    
+    <div class="boxy-5 justify-content-center mt-4">
+        <div class="boxy-6 mx-4">
+            <img src="tr1.jpg" alt="" class="tchl mx-3">
+            <h6 class="mx-5 mt-2"> Mr. Thaung Tin </h6>
+            <p class=" text-center"> Former CEO and Chairman </p>
+        </div>
+        <div class="boxy-6 mx-4">
+            <img src="tr2.jpg" alt="" class="tchl mx-3">
+            <h6 class="mx-5 mt-2"> Mrs. Tyn Tyn Aye </h6>
+            <p class=" text-center"> President & MD </p>
+        </div>
+        <div class="boxy-6 mx-4">
+            <img src="tr3.jpg" alt="" class="tchl mx-3">
+            <h6 class="mx-2 mt-2"> Mr. Ronald Aung Moe Shwe </h6>
+            <p class=" text-center"> CEO </p>
+        </div>
+        <div class="boxy-6 mx-4">
+            <img src="tr4.jpg" alt="" class="tchl mx-3">
+            <h6 class="mx-5 mt-2"> Mr. Myo Htet Lin </h6>
+            <p class=" text-center"> Education CEO </p>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <h6 class="sode1 text-center"> Recgonized by Global Leaders </h6>
+    </div>
+
+    <div class="psgbox2 mt-2">
+        <p class="soket">KMD Training Centre (KMD Education Services) is approved by GIC, UK. ISO Certified (ISO 9001:2015) for Quality <br> Management System. <br>
+
+KMD is a United Nations The Global Compact Participant Company.</p>
+    </div>
+        
+    <div class="logotheme justify-content-center">
+        <div class="logotheme1"><img src="logo1.png" alt="" width="200px">
+            <img src="logo2.png" alt="" width="200px">
+            <img src="logo3.png" alt="" width="200px">
+        </div>
+        
+    </div>
+
+    <div class="nog mt-5">
+        <h6 class="sode2 text-center mt-4"> Group of Companies </h6>
+        <div class="mainLead">
+            <div class="secondLead mt-5">
+                <img src="the1.png" alt="" width="100px" class="the1">
+                <h6 class=" text-center mt-2"> Enterprise </h6>
+                <p class="spdo1 text-center text-secondary">One-Stop solution services provider for commercial and enterprise <br> products in Myanmar. Holding continuous relationship with major <br> Corporation/ Enterprises /Government</p>
+            </div>      
+            <div class="secondLead mt-5">
+                <img src="th2.jpg" alt="" width="100px" class="the1">
+                <h6 class=" text-center mt-2"> Distribution </h6>
+                <p class="spdo1 text-center text-secondary">Distribution of IT and Mobile Products through Dealers Channel and <br> covering the widest distribution network in Myanmar</p>
+            </div>  
+            <div class="secondLead mt-5">
+                <img src="th3.png" alt="" width="100px" class="the1">
+                <h6 class=" text-center mt-2"> Retail </h6>
+                <p class="spdo1 text-center text-secondary">Biggest Retail Chain for IT, Mobile and Electronic Products. Authorized <br> Service Provider for prestigious International Brands</p>
+            </div>
+            <div class="secondLead mt-5">
+                <img src="th4.png" alt="" width="100px" class="the1">
+                <h6 class=" text-center mt-2"> Education </h6>
+                <p class="spdo1 text-center text-secondary">Provides Application Courses, Professional Courses,  Vocational Courses,<br> International Diploma and Degree Courses, and provides oversees study <br> consulting services</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <h3 class="hh mt-5 text-center"> Why KMD? </h3>
+
+    <div class="box5">
+        <div class="box6 animate__animated animate__fadeInRight">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Experiences </h5>
+            <p class="pp">Experience is an important element for establishment of successful business. KMD holds 30+ years' experience</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Infrastructure </h5>
+            <p class="pp">With 5+ Offices across country, KMD own high-end</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Work Force </h5>
+            <p class="pp">We have recruited elite workforce across the world the deliver quality services. Current strength is 900+ employees</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5">Quality </h5>
+            <p class="pp">We are ISO 9001 certified company for QMS. We are the highest attention to our services and product quality</p>
+        </div>
+    </div>
+
+    <div class="box7">
+        <div class="img-box" style="width: 30%;">
+            <img src="logo.svg" alt="" class="img4">
+        </div>
+
+       <div class="d-flex justify-content-end text-white">
+        <div>
+            <div class="ftlink1">
+                <h6> Useful Links </h6> 
+            </div>
+            <div class="icon1">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> University of Greenwich
+            </div>
+            <div class="icon2">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> NCC Eduction
+            </div>
+            <div class="icon3">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> SQA 
+            </div>
+            <div class="icon4">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> Institute of Commercial Management 
+            </div>
+            <div class="icon5">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> City & Guild  
+            </div>
+        </div>
+            
+        <div>
+            <div class="ftlink2">
+                <h6> Contact Us </h6> 
+            </div>
+            <div class="icon6">
+                <i class="fa-solid fa-map-location text-white"></i> No 174-182, Pansodan Road (Middle Block),<br> Kyauktada Township, Yangon, Myanmar.
+            </div>
+            <div class="icon7">
+                <i class="fa-solid fa-envelope-open-text text-white"></i> enquiry@kmdcomputer.com
+            </div>
+            <div class="icon8">
+                <i class="fa-solid fa-phone text-white"></i> +95-1-8-381129, 381776, 381035
+            </div>
+            <div class="icon9">
+                <i class="fa-solid fa-mobile-retro text-white"></i> 01245180
+            </div>
+        </div>
+
+        <div>
+            <div class="ftlink3">
+                <h6> About Us </h6> 
+            </div>
+            <div class="icon10">
+                KMD was founded in 1986 as a Training Institute. <br> Now it holds presence in complete Technology <br> paradigm of country with 900+ workforce.
+            </div>
+            <a href="#" class="lit text-decoration-none text-white"><div class="boxc"> Read More</div></a>
+            <div class="boxv">
+                <i class="fa-brands fa-facebook fa-2xl text-white"></i>
+                <i class="fa-brands fa-instagram fa-2xl mx-4"></i>
+            </div>
+        </div>
+
+       </div>
+
+    </div>
+
+    <div class="footlast">Copyright © 2020, KMD. All Rights Reserved.</div>
+
+    <!-- <script src="jquery-3.6.1.min.js"></script>
+
+    <script>
+        $('.scrollBar').scrollTop({top: '100%'},2000, function(){
+            var slideImgs = $('scrollBox');
+            var lasImg = slideImgs[slideImgs.length - 1];
+
+            $('.scrollBar').css({top:'0%'}); 
+        });
+    </script> -->
+    
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>

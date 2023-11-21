@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../WOW-master/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="../WOW-master/dist/wow.min.js"></script>
+    <link rel="stylesheet" href="Style1.css">
+    <style>
+        .home1{
+            position: relative;
+            
+        }
+        .h1{
+            filter: blur(5px);
+        }
+        .home3{
+            background: linear-gradient(to right, #16BFFD, #CB3066);
+            opacity: 0.9;
+            width: 100%;
+            height: 770px;
+            position: absolute;
+            top: 0;
+        }
+        .home5{
+            position: absolute;
+            top: 200px;
+            text-align: center;
+            
+        }
+        .homePage1{
+            animation: fadeInUp;
+            animation-duration: 1s;
+        }
+        .hFour{
+            font-size: 25px;
+            animation: fadeInUp;
+            animation-duration: 2s;
+        }
+        .parg{
+            animation: fadeInUp;
+            animation-duration: 3s;
+        }
+        .button{
+            border: 2px solid white;
+            padding: 10px 20px 10px 20px;
+            animation: fadeInUp;
+            animation-duration: 5s;
+            border-radius: 9px;
+            text-decoration: none;
+            color: white;
+            position: absolute;
+            left: 300px;
+        }
+        .button:hover{
+            background-color: white;
+            color: blue;
+        }
+        .home6{
+            position: absolute;
+            right: 50px;
+            top: 200px;
+            animation: fadeInRight;
+            animation-duration: 2s;
+        }
+        .parg1{
+            font-size: 40px;
+        }
+        .parg3{
+            font-size: 30px;
+        }
+        .parg4{
+            font-size: 20px;
+        }
+        .home8{
+            display: flex;
+            flex-direction: column;
+        }
+        .home9{
+            border: 0px solid black;
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .home9:hover{
+            background-color:rgb(44, 87, 172);
+            color: white;
+            transition: 0.6s;
+        }
+        .home10{
+            border: 0px solid black;
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: end;
+        }
+        .home10:hover{
+            background-color:rgb(44, 87, 172);
+            color: white;
+            transition: 0.6s;
+        }
+        .some{
+            position: absolute;
+            top: 1110px;
+            left: 753px;
+        }
+        .sed{
+            margin: 50px 0px 0px 200px;
+        }
+        .sMore{
+            border: 1px solid rgb(51, 52, 132);
+            padding: 10px 100px 10px 100px;
+            text-decoration: none;
+            border-radius: 5px; 
+        }
+        .sMore:hover{
+            background-color: rgb(53, 53, 151);
+            color: white;
+        }
+        .slink{
+            color: black;
+            text-decoration: none;
+        }
+        .slink:hover{
+            color: white;
+        }
+        .content{
+            width: 100%;
+            height: 300px;
+            border: 0px solid black;
+            overflow: hidden;
+            
+        }
+        .scrollBar{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            position: relative;
+            background: linear-gradient(to left, rgb(79, 31, 31), rgb(86, 86, 140));
+            opacity: 0.6;
+        }
+        .scrollBox{
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .somed{
+            color: red;
+            width: 800px;
+            position: absolute;
+            top: 1850px;
+            left: 300px;
+            font-size: 19px;
+        }
+        .some1{
+            color: black;
+            font-family: "Adobe Gothic Std";
+        }
+        .parg4{
+            margin-left: 200px;
+        }
+        .home12{
+            display: flex;
+            flex-direction: column;
+        }
+        .home13{
+            display: flex;
+            flex-direction: row;
+        }
+        .home14{
+            border: 1px solid white;
+            width: 400px;
+            height: 200px;
+            position: relative;
+            margin: 50px 0px 0px 100px;
+            border-radius: 10px;
+            animation: fadeInRight;
+            animation-duration: 2s;
+        }
+        .home14:hover{
+            background-color: white;
+            box-shadow: 1px 5px 9px gray;
+            border-top: 7px solid blue;
+            color: black;
+        }
+        .jj{
+            position: absolute;
+            left: 100px;
+            top: 20px;
+        }
+        .jj1{
+            margin-top: 80px;
+            font-size: 20px;
+            
+        }
+        .aa{
+            text-decoration: none;
+            color: black;
+        }
+        .home15{
+            margin-left: 210px;
+            display: flex;
+            flex-direction: row;
+        }
+        .imglate{
+            border: 0px solid black;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 1px 3px 5px gray;
+        }
+        .iicon{
+            position: absolute;
+            left: 350px;
+            top: 65px;
+        }
+        .psgboxe{
+            border: 0px solid black;
+            width: 100%;
+            height: 200px;
+            box-shadow: 1px 3px 5px gray;
+        }
+        .imdf{
+            position: absolute;
+            top: 2930px;
+        }
+        .shh{
+            margin-top: 70px;
+        }
+        .vv{
+            border: 1px solid blue;
+            padding: 10px 20px 10px 20px;
+            position: absolute;
+            margin-top: 130px;
+            margin-left: 0px;
+            left: 1070px;
+            color: blue;
+            border-radius: 8px;
+            
+        }
+        .vv:hover{
+            background-color: rgb(106, 106, 208);
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar px-2 lg:px-10 font-roboto">
+        <a href="#">
+            <img src="logo.svg" alt="" class="img1">
+        </a>
+        <div class="hidden lg:block">
+            <ul class="text-white flex items-center nav justify-content-end">
+                <li class="nav-item"> <a href="Home.html" class="nava" style="border-bottom: 3px solid white; padding:13px;"> Home </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>  
+                    <ul class="dropdown-menu">
+                        
+                        <!-- <li><a class="dropdown-item" href="#"> International Diploma </a></li> -->
+                        <li><a class="dropdown-item" href="SQA.html"> SQA Advanced Developing in Computing </a></li>
+                        <li><a class="dropdown-item" href="NCC.html"> NCC Computing Diploma </a></li>
+                        <li><a class="dropdown-item" href="UOG.html"> UOG/Final Year Degree </a></li>
+                        <li><a class="dropdown-item" href="LocalDiploma.html"> Local Diploma </a></li>
+                        <li><a class="dropdown-item" href="ProfessinalEng1.html"> Professional Engineering </a></li>
+                        <li><a class="dropdown-item" href="Application1.html"> Application </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Centers</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="MainCenter.html"> Main Branch Center </a></li>
+                        <li><a class="dropdown-item" href="Accredit1.html"> Accredit Center (YGN) </a></li>
+                        <li><a class="dropdown-item" href="AccMyanmar1.html"> Accredit Center (MYANMAR) </a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"> <a href="Department.html" class="nava"> Department </a> </li>
+                <li class="nav-item"> <a href="Facility.html" class="nava"> Facility </a> </li>
+
+                <li class="nav-item dropdown"> <a class="nava dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student</a>  
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="StuTestiminal.html"> Student Testimonials </a></li>
+                        <li><a class="dropdown-item" href="Alumini.html"> Alumni </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="AboutUs.html" class="nava"> About us </a> </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="home1">
+        <img src="home1.jpg" alt="" width="100%" height="770px" class="h1">
+        <div class="home2">
+            <div class="home3">
+                <div class="home4 d-flex">
+                    <div class="home5" style=" width:50%">
+                        <img src="logo.svg" alt="" width="250px" class="homePage1">
+                        <p class="hFour text-white mt-2"> Network Engineering </p>
+                        <p class="parg text-white mt-2">Computer Hardware ကိုအခြေခံမှစ၍ စတင်လေ့လာမည့်သူများ <br> Hardware Technician, Network Engineer တစ်ဦးအဖြစ် <br> အသက်မွေး၀မ်းကြောင်းပြုလိုသူများအတွက် Network Engineering <br> Course များကို KMD Institute တွင် တက်ရောက်နိုင်ပါသည်။</p>
+                        <a href="#" class="button"> Read More </a>
+                    </div>
+                    <div class="home6">
+                        <img src="home1.jpg" alt="" width="700px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    <div class="home7">
+        <p class="parg1 text-center"> Course and Program </p>
+        <p class="parg2 text-center">လုပ်ငန်းခွင်တွင် လက်တွေ့အသုံးချနိုင်မည့်ဘာသာရပ်များ၊ ပြည်တွင်းပြည်ပ အသိအမှတ်ပြု ဒီပလိုမာနှင့် ဒီဂရီများကို သင်ကြားပေးလျက်ရှိပါသည်။</p>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class=" col-4">
+                <div class="home8">
+                    <a href="#" class="slink">
+                        <div class="home9 mt-3">
+                            <h5> Diploma in Accounting </h5>
+                            <div class="dd" style=" width:100px; background-color:blue; height:5px;"></div>
+                            <p class="mt-2"> နိုင်ငံတကာအသိအမှတ်ပြု LCCI ဒီပလိုမာကို ရယူထားခြင်းအားဖြင့် စီးပွားရေးလုပ်ငန်းများတွင် စာရင်းထိန်းသိမ်းထားရှိနိုင်ရန်နှင့် အရှုံးအမြတ်၊ အရောင်းအဝယ် စာရင်းများကို လအလိုက်/နှစ်အလိုက် ရေးဆွဲနိုင်ရန် သင်ကြားပေးနေသော သင်တန်းဖြစ်ပါသည်။ </p>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slink">
+                        <div class="home9 mt-3" style=" height:150px;">
+                            <h5> Application </h5>
+                            <div class="dd" style=" width:100px; background-color:blue; height:5px;"></div>
+                            <p class="mt-2"> company နှင့် ရုံးလုပ်ငန်းများတွင် ကွန်ပျူတာနည်းပညာကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်စေရန် သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                    </a>
+
+                    <a href="#" class="slink">
+                        <div class="home9 mt-3" style=" height:150px;">
+                            <h5> Local Diploma </h5>
+                            <div class="dd" style=" width:100px; background-color:blue; height:5px;"></div>
+                            <p class="mt-2"> ရန်ကုန်အဝေးသင်တက္ကသိုလ်နှင့် KMD Institute တို့ ပူးပေါင်းဖွင့်လှစ်ပြီး ဒီပလိုမာဘာသာရပ်များကို သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                    </a>
+
+                    <a href="#" class="slink">
+                        <div class="home9 mt-3" style=" height:150px;">
+                            <h5> IT Diploma </h5>
+                            <div class="dd" style=" width:100px; background-color:blue; height:5px;"></div>
+                            <p class="mt-2"> နှစ်ပေါင်း (၁၀၀) ကျော် သက်တမ်းရှိ City & Guilds (UK) မှ ချီးမြင့်သော နိုင်ငံတကာ အသိအမှတ်ပြု ဘာသာရပ်များကို သင်ကြားပေးနေသော သင်တန်းဖြစ်ပါသည်။ </p>
+                    </div>
+                    </a>
+
+                    <a href="#" class="slink">
+                        <div class="home9 mt-3" style=" height:150px;">
+                            <h5> Professional Engineering Course </h5>
+                            <div class="dd" style=" width:100px; background-color:blue; height:5px;"></div>
+                            <p class="mt-2"> Network Engineer, Software Engineer တယောက်အဖြစ် အသက်မွေးဝမ်းကြောင်း ပြုလိုသူများအတွက် သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class=" col-4">
+                <img src="kmd logo.png" alt="" width="400px" class=" text-primary text-center">
+                <div class="some mx-auto mt-0" style=" background-color:blue; width:3px; height:500px;"></div>
+                <div>
+                    <img src="hg1.jpg" alt="" width="200px" class="mx-1">
+                </div>
+                <div>
+                    <img src="hg2.jpg" alt="" width="200px" class="sed">
+                </div>
+                <div>
+                    <img src="hg3.png" alt="" width="200px" class="mx-1 mt-5">
+                </div>
+                <div class="mt-4 text-center">
+                    <a href="#" class="sMore mt-5"> See More </a>
+                </div>
+                
+            </div>
+
+            <div class=" col-4">
+                <a href="#" class="slink">
+                    <div class="home10 mt-3">
+                        <h5> NCC Computing Diploma </h5>
+                        <div class="dd" style=" width:100px; background-color:blue; height:5px; margin-left: 280px;"></div>
+                        <p class="mt-2"> ခေတ်နှင့်တစ်ပြေးညီ နောက်ဆုံးပေါ် ကွန်ပျူတာစနစ်တစ်ခုဖြင့် လုပ်ငန်းပိုင်းဆိုင်ရာ လိုအပ်ချက်များကို ဖြေရှင်းစေနိုင်မည့် ကွန်ပျူ တာ နည်းပညာ များကို စာတွေ့လက်တွေ့ သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                </a>
+                
+                <a href="#" class="slink">
+                    <div class="home10 mt-3" style=" height:280px;">
+                        <h5> SQA Advanced Diploma in Computing (HND) </h5>
+                        <div class="dd" style=" width:100px; background-color:blue; height:5px; margin-left: 280px;"></div>
+                        <p class="mt-2"> UK အစိုးရ အသိအမှတ်ပြုသော စကော့တလန် အရည်အချင်းစိစစ်ရေးအဖွဲ့ Scottish Qualifications Authority မှ ချီးမြှင့်သော အသက်မွေးဝမ်းကျောင်းဆိုင်ရာ Diploma ကိုရယူနိုင်ပါသည်။ တက္ကသိုလ်ဝင်တန်း ဖြေဆိုအောင်မြင်ပြီးသူများ နှင့် လုပ်ငန်းခွင်ဝင်ရောက်နေပြီး IT နည်းပညာဆိုင်ရာ ဒီပလိုမာတစ်ခု ရယူလိုသူတိုင်း တက်ရောက်နိုင်ရန် သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                </a>
+
+                <a href="#" class="slink">
+                    <div class="home10 mt-3" style=" height:320px;">
+                        <h5> UOG/Final Year Degree </h5>
+                        <div class="dd" style=" width:100px; background-color:blue; height:5px; margin-left: 280px;"></div>
+                        <p class="mt-2"> တစ်ကမ္ဘာလုံး Top 5% စာရင်းဝင် တက္ကသိုလ်ကြီး တစ်ခု ဖြစ်သော University of Greenwich (UK) မှ တိုက်ရိုက် ပေးအပ်ချီးမြှင့်သည့် နိုင်ငံတကာအသိအမှတ်ပြု ဘွဲ့သင်တန်း ဖြစ်ပါသည်။ British Computer Society (BCS), Chartered Information Institute မှ အသိအမှတ်ပြုထားသောဘွဲ့ ဖြစ်ပါသည်။ သင်တန်းပြီးဆုံးသည် နှင့် Chartered Information Technology Professional (CITP) အဖြစ် မှတ်ပုံတင်ခွင့် ရှိပါသည်။ မိမိရွေးချယ်မည့် အလုပ်အကိုင် နှင့်ကိုက်ညီသော အထူးပြုဘာသာရပ်များအလိုက်ရွေးချယ်တက်ရောက်နိုင်ရန်အတွက် သင်ကြားပေးနေသော သင်တန်းများ ဖြစ်ပါသည်။ </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- scrollbar -->
+    <div class="content mt-5">
+        <div class="scrollBar">
+            <img src="In1.jpg" alt="" width="100%" height="100%" class=" scrollBox"> 
+        </div>
+    </div>
+
+    <div>
+        <p class="somed"><i class="fa-solid fa-quote-left fa-2x text-dark"> </i> <span class="some1"> KMD Institute was founded in 1986, aiming strong support for developing people and the country with Information and Communication Technology through 143 Accredited and Franchise Centers in Myanmar. Our curriculums are designed to give our students the academic knowledge and complementary practical skills to reach their career aspirations.</span></p>
+    </div>
+
+    <div class="bb text-start">
+        <p class="parg3 text-center"> Education Services </p>
+        <p class="parg4"> Advanced technology and business courses from world-class education providers collaboration <br><br>
+
+
+
+We provide foundation to International Diploma and Bachelor degree level in Business, IT and Management. We have long <br> and ongoing partnership with well-known International Education Providers, <br> Universities and Industry Leading Certification Providers, in order to bring international standard IT and Business qualifications to Myanmar. </p>
+    </div>
+
+    <div class="home11">
+        <div class="home12">
+            <div class="home13">
+                <a href="#" class="aa">
+                    <div class="home14">
+                    <p class="jj"><i class="fa-solid fa-desktop fa-3x text-primary"></i></p>
+                    <h6 class="jj1 text-center"> Vocational Training Center </h6>
+                    <p class="text-center"> B2B, B2C, B2G service များအား <br> ဝန်ဆောင်မှုပေးခြင်း </p>
+                </div>
+                </a>
+
+                <a href="#" class="aa">
+                    <div class="home14">
+                    <p class="jj" style="margin-left: 10px;"><i class="fa-solid fa-star-of-david fa-3x text-primary"></i></p>
+                    <h6 class="jj1 text-center"> Steam </h6>
+                    <p class="text-center"> STEAM Education သင်တန်းများ </p>
+                </div>
+                </a>
+
+                <a href="#" class="aa">
+                    <div class="home14">
+                    <p class="jj"><i class="fa-solid fa-house-laptop fa-3x text-primary"></i></p>
+                    <h6 class="jj1 text-center"> Rental Service </h6>
+                    <p class="text-center"> Rental Service များ ဝန်ဆောင်မှုပေးခြင်း </p>
+                </div>
+                </a>
+                
+            </div>
+            <div class="home15">
+                <a href="#" class="aa">
+                    <div class="home14">
+                    <p class="jj" style="margin-left: 70px;"><i class="fa-regular fa-pen-to-square fa-3x text-primary"></i></p>
+                    <h6 class="jj1 text-center"> Online Test Center </h6>
+                    <p class="text-center"> Online Exam များ ဖြေဆိုနိုင်ရန် ဝန်ဆောင်မှု<br> ပေးခြင်း </p>
+                </div>
+                </a>
+
+                <a href="#" class="aa">
+                    <div class="home14">
+                    <p class="jj"><i class="fa-solid fa-graduation-cap fa-3x text-primary"></i></p>
+                    <h6 class="jj1 text-center"> Overseas Studies Counselling <br> Services </h6>
+                    <p class="text-center"> ကမ္ဘာ့အဆင့်မီ တက္ကသိုလ်များမှ နိုင်ငံတကာ<br> အသိအမှတ်ပြု ဘွဲ့ရယူနိုင်ရန်</p>
+                </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class=" d-flex">
+        <div class="imglate d-flex mt-4" style="width: 50%;">
+            <img src="kkmd.jpg" alt="" width="100%" height="300px">
+            <a href="https://www.youtube.com/watch?v=rcIwto5IPDs"><p class="iicon"><i class="fa-regular fa-circle-play fa-3x text-white"></i></p></a>
+        </div>
+        <div class="psgboxe d-flex mt-4" style="width: 50%;">
+            <p class="mt-2 mx-2" style="font-size: 25px;"> Latest News </p>
+            <img src="covid donation.jpg" alt="" width="150px" height="100px" class="imdf mx-2">
+            <a href="#" class=" text-decoration-none"><p class="shh text-dark mx-4"> COVID-19 ကာကွယ်ဆေးဝယ်ယူရရှိရေး ရန်ပုံငွေသို့ ထည့်ဝင်လှူဒါန်းခြင်း <br> Feb 03,2021 </p></a>
+            
+            <a href="#" class=" text-decoration-none text-primary"><p class="vv"> Read More </p></a>
+        </div>
+        
+    </div>
+
+    <h3 class="hh mt-5 text-center"> Why KMD? </h3>
+
+    <div class="box5">
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Experiences </h5>
+            <p class="pp">Experience is an important element for establishment of successful business. KMD holds 30+ years' experience</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Infrastructure </h5>
+            <p class="pp">With 5+ Offices across country, KMD own high-end</p>
+        </div>
+        <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+            <h5 class="hh5"> Work Force </h5>
+            <p class="pp">We have recruited elite workforce across the world the deliver quality services. Current strength is 900+ employees</p>
+        </div>
+    <div class="box6">
+            <i class="fa-solid fa-star fa-3x"></i>
+        <h5 class="hh5">Quality </h5>
+            <p class="pp">We are ISO 9001 certified company for QMS. We are the highest attention to our services and product quality</p>
+        </div>
+    </div>
+
+    <div class="box7">
+        <div class="img-box" style="width: 30%;">
+            <img src="logo.svg" alt="" class="img4">
+        </div>
+
+       <div class="d-flex justify-content-end text-white">
+        <div>
+            <div class="ftlink1">
+                <h6> Useful Links </h6> 
+            </div>
+            <div class="icon1">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> University of Greenwich
+            </div>
+            <div class="icon2">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> NCC Eduction
+            </div>
+            <div class="icon3">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> SQA 
+            </div>
+            <div class="icon4">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> Institute of Commercial Management 
+            </div>
+            <div class="icon5">
+                <i class="fa-solid fa-circle-arrow-right text-white"></i> City & Guild  
+            </div>
+        </div>
+            
+        <div>
+            <div class="ftlink2">
+                <h6> Contact Us </h6> 
+            </div>
+            <div class="icon6">
+                <i class="fa-solid fa-map-location text-white"></i> No 174-182, Pansodan Road (Middle Block),<br> Kyauktada Township, Yangon, Myanmar.
+            </div>
+            <div class="icon7">
+                <i class="fa-solid fa-envelope-open-text text-white"></i> enquiry@kmdcomputer.com
+            </div>
+            <div class="icon8">
+                <i class="fa-solid fa-phone text-white"></i> +95-1-8-381129, 381776, 381035
+            </div>
+            <div class="icon9">
+                <i class="fa-solid fa-mobile-retro text-white"></i> 01245180
+            </div>
+        </div>
+
+        <div>
+            <div class="ftlink3">
+                <h6> About Us </h6> 
+            </div>
+            <div class="icon10">
+                KMD was founded in 1986 as a Training Institute. <br> Now it holds presence in complete Technology <br> paradigm of country with 900+ workforce.
+            </div>
+            <a href="#" class="lit text-decoration-none text-white"><div class="boxc"> Read More</div></a>
+            <div class="boxv">
+                <i class="fa-brands fa-facebook fa-2xl text-white"></i>
+                <i class="fa-brands fa-instagram fa-2xl mx-4"></i>
+            </div>
+        </div>
+
+       </div>
+
+    </div>
+
+    <div class="footlast">Copyright © 2020, KMD. All Rights Reserved.</div>
+    
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
